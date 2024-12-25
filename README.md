@@ -14,10 +14,10 @@ Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
 El proyecto sigue una **arquitectura basada en capas**, que está diseñada para separar las diferentes responsabilidades y mejorar la mantenibilidad y escalabilidad del sistema. Las capas principales del proyecto son:
 
-	• Controllers: Contiene los controladores, que suelen ser responsables de manejar las solicitudes HTTP entrantes y retornar respuestas. En términos de arquitectura, esto pertenece a la capa de presentación o interfaz.
-	•	Core: Normalmente, esta carpeta incluye la lógica de negocio central (domain layer) y puede contener entidades, interfaces de servicios y posiblemente DTOs (Data Transfer Objects).
-	•	Infrastructure: Aquí se maneja la implementación de servicios, acceso a datos (por ejemplo, repositorios) o integración con otros sistemas externos. Pertenece a la capa de infraestructura.
-	•	Services: Se puede usar para implementar lógica de negocio que interactúe con la capa Core o Infrastructure. Es una forma de separar responsabilidades.
+1. Controllers: Contiene los controladores, que suelen ser responsables de manejar las solicitudes HTTP entrantes y retornar respuestas. En términos de arquitectura, esto pertenece a la capa de presentación o interfaz.
+2. Core: Normalmente, esta carpeta incluye la lógica de negocio central (domain layer) y puede contener entidades, interfaces de servicios y posiblemente DTOs (Data Transfer Objects).
+3. Infrastructure: Aquí se maneja la implementación de servicios, acceso a datos (por ejemplo, repositorios) o integración con otros sistemas externos. Pertenece a la capa de infraestructura.
+4. Services: Se puede usar para implementar lógica de negocio que interactúe con la capa Core o Infrastructure. Es una forma de separar responsabilidades.
 
 ## Patrones de Diseño Utilizados
 
