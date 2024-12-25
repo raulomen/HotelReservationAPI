@@ -6,7 +6,7 @@ Creación de una Appi para realizar reservas en un hotel
 
 Este proyecto fue desarrollado utilizando las siguientes tecnologías:
 
-- **Framework**: .NET 6
+- **Framework**: .NET 7
 - **IDE**: Visual Studio 2022
 - **Base de datos**: MongoDB
 
